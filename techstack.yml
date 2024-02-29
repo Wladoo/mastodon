@@ -2,7 +2,7 @@ repo_name: Wladoo/mastodon
 report_id: 6d0685a4a62ae40b36389d985ec64836
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-25T10:29:40+00:00'
+timestamp: '2024-02-29T20:13:01+00:00'
 requested_by: ClearlyClaire
 provider: github
 branch: main
@@ -1784,6 +1784,24 @@ tools:
     detected_date: Mar 16
     severity: low
     first_patched: 2.2.6.4
+  - name: Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)
+    cve_id: CVE-2024-25126
+    cve_url: https://github.com/advisories/GHSA-22f2-v57c-j9cx
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack Header Parsing leads to Possible Denial of Service Vulnerability
+    cve_id: CVE-2024-26146
+    cve_url: https://github.com/advisories/GHSA-54rr-7fvw-6x8f
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack has possible DoS Vulnerability with Range Header
+    cve_id: CVE-2024-26141
+    cve_url: https://github.com/advisories/GHSA-xj5v-6v4g-jfw6
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
 - name: rack-attack
   description: A rack middleware for throttling and blocking abusive requests
   package_url: https://rubygems.org/rack-attack
@@ -1812,6 +1830,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-01-26 14:33:06.000000000 Z
+  vulnerabilities:
+  - name: Rack CORS Middleware has Insecure File Permissions
+    cve_id: CVE-2024-27456
+    cve_url: https://github.com/advisories/GHSA-785g-282q-pwvx
+    detected_date: Feb 27
+    severity: moderate
+    first_patched: 
 - name: rails-controller-testing
   description: Extracting `assigns` and `assert_template` from ActionDispatch
   package_url: https://rubygems.org/rails-controller-testing
