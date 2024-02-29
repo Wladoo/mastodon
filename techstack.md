@@ -136,7 +136,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Wladoo/mastodon](https://github.com/Wladoo/mastodon)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|217<br/>Tools used|02/25/24 <br/>Report generated|
+|217<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -778,9 +778,9 @@ Full tech stack [here](/techstack.md)
 |[pry-byebug](https://rubygems.org/pry-byebug)|v3.9.0|05/08/20|dependabot-preview[bot] |MIT|N/A|
 |[pry-rails](https://rubygems.org/pry-rails)|v0.3.9|12/30/20|dependabot[bot] |MIT|N/A|
 |[pundit](https://rubygems.org/pundit)|v2.1.0|08/19/19|dependabot-preview[bot] |MIT|N/A|
-|[rack](https://rubygems.org/rack)|v2.2.3|01/26/21|dependabot[bot] |MIT|[CVE-2022-30123](https://github.com/advisories/GHSA-wq4h-7r42-5hrr) (Critical)<br/>[CVE-2023-27530](https://github.com/advisories/GHSA-3h57-hmj3-gj3p) (High)<br/>[CVE-2022-44570](https://github.com/advisories/GHSA-65f5-mfpf-vfhj) (High)<br/>[CVE-2022-30122](https://github.com/advisories/GHSA-hxqx-xwvh-44m2) (High)<br/>[CVE-2022-44571](https://github.com/advisories/GHSA-93pm-5p5f-3ghx) (Low)<br/>[CVE-2022-44572](https://github.com/advisories/GHSA-rqv2-275x-2jq5) (Low)<br/>[CVE-2023-27539](https://github.com/advisories/GHSA-c6qg-cjj8-47qp) (Low)|
+|[rack](https://rubygems.org/rack)|v2.2.3|01/26/21|dependabot[bot] |MIT|[CVE-2022-30123](https://github.com/advisories/GHSA-wq4h-7r42-5hrr) (Critical)<br/>[CVE-2023-27530](https://github.com/advisories/GHSA-3h57-hmj3-gj3p) (High)<br/>[CVE-2022-44570](https://github.com/advisories/GHSA-65f5-mfpf-vfhj) (High)<br/>[CVE-2022-30122](https://github.com/advisories/GHSA-hxqx-xwvh-44m2) (High)<br/>[CVE-2022-44571](https://github.com/advisories/GHSA-93pm-5p5f-3ghx) (Low)<br/>[CVE-2022-44572](https://github.com/advisories/GHSA-rqv2-275x-2jq5) (Low)<br/>[CVE-2023-27539](https://github.com/advisories/GHSA-c6qg-cjj8-47qp) (Low)<br/>[CVE-2024-25126](https://github.com/advisories/GHSA-22f2-v57c-j9cx) (Low)<br/>[CVE-2024-26146](https://github.com/advisories/GHSA-54rr-7fvw-6x8f) (Low)<br/>[CVE-2024-26141](https://github.com/advisories/GHSA-xj5v-6v4g-jfw6) (Low)|
 |[rack-attack](https://rubygems.org/rack-attack)|v6.4.0|01/26/21|dependabot[bot] |MIT|N/A|
-|[rack-cors](https://rubygems.org/rack-cors)|v1.1.1|01/26/21|dependabot[bot] |MIT|N/A|
+|[rack-cors](https://rubygems.org/rack-cors)|v1.1.1|01/26/21|dependabot[bot] |MIT|[CVE-2024-27456](https://github.com/advisories/GHSA-785g-282q-pwvx) (Moderate)|
 |[rails-controller-testing](https://rubygems.org/rails-controller-testing)|v1.0.5|01/07/21|dependabot[bot] |MIT|N/A|
 |[rails-i18n](https://rubygems.org/rails-i18n)|v5.1.3|12/30/20|dependabot[bot] |MIT|N/A|
 |[rails-settings-cached](https://rubygems.org/rails-settings-cached)|v0.6.6|12/30/20|dependabot[bot] |MIT|N/A|
